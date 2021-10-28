@@ -2,10 +2,13 @@
 
 namespace Modul3HW6
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            var starter = new Starter();
+
+            starter.Run();
         }
     }
 }
